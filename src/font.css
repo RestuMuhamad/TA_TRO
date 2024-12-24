@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Bree Serif";
+  src: url('./font/Bree_Serif/BreeSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./font/Montserrat/Montserrat-VariableFont_wght.ttf');
+}

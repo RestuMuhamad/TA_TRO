@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Tailwind CSS
+tailwind.config.cjs
+postcss.config.cjs
+
+# OS-specific files
+.DS_Store
+Thumbs.db
