@@ -268,3 +268,11 @@ btnHitung.addEventListener("click", () => {
     </tbody>
 `;
 });
+
+const btnCancle = document.querySelector("#btn-cancle");
+btnCancle.addEventListener("click", () => {
+	const allInput = document.querySelectorAll("input");
+	allInput.forEach((input) => {
+		input.value = "";
+	});
+});
